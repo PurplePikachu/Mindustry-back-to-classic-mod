@@ -22,7 +22,7 @@ ammoTypes: {
    hitShake: 1
    frontColor: fdcca4
    backColor: cba785
-   lifetime: 80
+   lifetime: 20
    ammoMultiplier: 1
          }
 }
