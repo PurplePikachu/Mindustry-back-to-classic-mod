@@ -1,0 +1,35 @@
+type: ItemTurret
+health: 45
+size: 2
+spread: 12
+shots: 2
+alternate: true
+maxAmmo: 400
+reloadTime: 1
+restitution: 0.03
+range: 100
+shootCone: 6
+ammoUseEffect: none
+inaccuracy: 8
+rotateSpeed: 7
+ammoTypes: {
+  uranium: {
+   type: BasicBulletType
+   height: 11
+   width: 5
+   damage: 8
+   speed: 6
+   hitShake: 1
+   frontColor: fdcca4
+   backColor: cba785
+   lifetime: 80
+   ammoMultiplier: 1
+         }
+}
+requirements: [
+  dirium/40
+  steel/50
+  titanium/25
+]
+category: turret
+alwaysUnlocked: true

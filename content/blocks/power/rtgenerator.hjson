@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Генератор RTG
+description: Генерирует небольшое количество энергии из распада радиоактивного урана.
+size: 1
+hasPower: true
+health: 40
+hasItems: true
+itemCapacity: 20
+itemDuration: 40
+powerProduction: 1.8
+consumes: {
+  items: {
+  	items: [
+  		uranium/4
+    ]
+  }
+}
+requirements: [
+  titanium/20
+  steel/20
+]
+category: power
+alwaysUnlocked: true

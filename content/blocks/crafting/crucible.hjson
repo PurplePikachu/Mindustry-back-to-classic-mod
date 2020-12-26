@@ -1,0 +1,25 @@
+name: "Тигель"
+description: "Продвинутый блок крафтер. При вводе 1х титана и 1х стали выдается один дириум."
+type: GenericSmelter
+liquidCapacity: 1
+size: 1
+hasItems: true
+flameColor: 00000000
+updateEffect: none 
+craftEffect: none
+craftTime: 15
+consumes: {
+  items: {
+    items: [
+      titanium/1
+      steel/1
+      coal/1
+    ]
+  }
+}
+requirements: [
+  steel/50
+  titanium/50
+]
+category: crafting
+outputItem: dirium/1

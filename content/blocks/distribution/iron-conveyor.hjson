@@ -1,0 +1,13 @@
+type: Conveyor
+name: Конвейер
+health: 50
+solid: false
+floating: true
+insulated: true
+description: Основной транспортный блок. Перемещает предметы вперед и автоматически перекладывает их в турели или в крафтеры. Могут вращаться.
+requirements: [
+  stone/1
+]
+category: distribution
+speed: 0.07
+displayedSpeed: 7

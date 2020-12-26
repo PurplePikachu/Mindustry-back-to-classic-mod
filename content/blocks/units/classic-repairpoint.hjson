@@ -1,0 +1,14 @@
+type: RepairPoint
+name: Ремонтная турель
+description: "Ремонтирует близлежащие поврежденные юниты в радиусе действия с приличной скоростью. Использует энергию."
+health: 90
+size: 1
+repairRadius: 44
+repairSpeed: 2
+requirements: [
+  iron/20
+  steel/30
+]
+powerUse: 0.1
+category: units
+alwaysUnlocked: true

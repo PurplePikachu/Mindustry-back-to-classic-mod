@@ -1,0 +1,11 @@
+type: Door
+
+health: 440
+
+requirements: [
+  steel/12
+]
+size: 1
+solid: false
+category: defense
+

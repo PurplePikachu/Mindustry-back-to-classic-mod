@@ -1,0 +1,24 @@
+name: "Плавильный завод"
+description: "Основной блок крафтер. При вводе 1 х железа и 1 х угля выдается одна сталь."
+type: GenericSmelter
+liquidCapacity: 1
+size: 1
+updateEffect: none
+flameColor: 00000000
+craftEffect: none
+hasItems: true
+craftTime: 15
+consumes: {
+  items: {
+    items: [
+      iron/1
+      coal/1
+    ]
+  }
+}
+requirements: [
+  iron/40
+  stone/40
+]
+category: crafting
+outputItem: steel/1

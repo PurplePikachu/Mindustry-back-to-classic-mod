@@ -1,0 +1,6 @@
+name: uranium
+type: OreBlock
+itemDrop: uranium
+oreDefault: false
+oreThreshold: 0.1
+oreScale: 24.9683251

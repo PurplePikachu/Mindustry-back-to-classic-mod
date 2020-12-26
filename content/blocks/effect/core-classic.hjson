@@ -1,0 +1,13 @@
+type: CoreBlock
+name: "Core: Classic"
+description: "Classic core."
+health: 3000
+armor: 1000
+itemCapacity: 844400
+size: 4
+unitType: classic-core-unit
+unitCapModifier: 144
+requirements: [
+]
+category: effect
+alwaysUnlocked: true

@@ -1,0 +1,11 @@
+type: Wall
+
+health: 160
+
+requirements: [
+  stone/12
+]
+size: 1
+solid: false
+category: defense
+

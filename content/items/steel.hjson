@@ -1,0 +1,7 @@
+name: Сталь
+description: Сталь
+hardness: 0.1
+cost: 0.25
+color:  F2F2F2FF
+lowPriority: false 
+alwaysUnlocked: true

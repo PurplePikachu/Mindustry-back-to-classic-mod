@@ -1,0 +1,34 @@
+type: ItemTurret
+health: 45
+size: 1
+spread: 1
+shots: 7
+alternate: true
+maxAmmo: 400
+reloadTime: 2
+restitution: 0.03
+range: 50
+shootCone: 15
+ammoUseEffect: none
+inaccuracy: 15
+rotateSpeed: 5
+ammoTypes: {
+  iron: {
+   type: BasicBulletType
+   height: 4.5
+   width: 4.5
+   damage: 2
+   speed: 2
+   hitShake: 1
+   frontColor: 888888FF
+   backColor: 737373FF
+   lifetime: 50
+   ammoMultiplier: 1
+         }
+}
+requirements: [
+  stone/10
+  iron/10
+]
+category: turret
+alwaysUnlocked: true

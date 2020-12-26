@@ -1,0 +1,22 @@
+type: PowerTurret
+hasPower: true
+health: 110
+shots: 15
+size: 1
+powerUse: 2
+shootSound: laserbig
+range: 60
+loopSound: beam
+loopSoundVolume: 2.7
+shootType: {
+    type: ContinuousLaserBulletType
+    lenght: 30
+    hitEffect: hitLancer
+    drawSize: 40
+    damage: 2
+}
+requirements: [
+  stone/7
+]
+category: turret
+alwaysUnlocked: true

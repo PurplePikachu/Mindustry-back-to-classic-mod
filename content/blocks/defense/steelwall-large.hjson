@@ -1,0 +1,11 @@
+type: Wall
+
+health: 1760
+
+requirements: [
+  steel/48
+]
+size: 2
+solid: false
+category: defense
+

@@ -1,0 +1,7 @@
+name: Камень
+description: Камень
+hardness: 0.1
+cost: 0.25
+color:  777777FF
+lowPriority: true 
+alwaysUnlocked: false

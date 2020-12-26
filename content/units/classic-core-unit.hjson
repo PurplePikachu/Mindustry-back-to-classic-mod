@@ -1,0 +1,41 @@
+type: flying
+name: Классический юнит
+isCounted: false
+health: 500
+flying: true
+drag: 0.2
+engineOffset: 4
+speed: 3
+itemCapacity: 100
+accel: 0.6
+rotateSpeed: 20
+mineSpeed: 20
+mineTier: 2
+buildSpeed: 400
+weapons: [
+  {
+  name: small-mount-weapon
+  top: false
+  inaccuracy: 3
+  x: 2
+  y: 4
+  shots: 2
+  ejectEffect: casing1
+  reload: 2
+  spacing: 2
+  shotDelay: 6
+  bullet: {
+    type: MissileBulletType
+    width: 7
+    height: 12
+    frontColor: ffffff
+    backColor: FF6B00FF
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 12
+    lifetime: 70
+    tileDamageMultiplier: 0.9
+    speed: 4
+  }
+  }
+]

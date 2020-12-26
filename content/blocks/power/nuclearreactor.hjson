@@ -1,0 +1,27 @@
+type: NuclearReactor
+name: Ядерный реактор
+description: Передовая версия генератора RTG и идеальный источник энергии. Генерирует энергию из урана. Требуется постоянное водяное охлаждение.Крайне взрывоопасен; сильно взорвётся при подаче недостаточного количества воды.
+size: 3
+hasPower: true
+health: 600
+hasLiquids: true
+liquidCapacity: 50
+hasItems: true
+itemCapacity: 30
+itemDuration: 40
+powerProduction: 27
+consumes: {
+liquid: water/0.15
+  items: {
+  	items: [
+  		uranium/5
+    ]
+  }
+}
+requirements: [
+  titanium/40
+  steel/50
+  dirium/40
+]
+category: power
+alwaysUnlocked: true

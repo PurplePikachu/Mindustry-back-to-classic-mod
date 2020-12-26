@@ -1,0 +1,11 @@
+type: Wall
+
+health: 3040
+
+requirements: [
+  dirium/48
+]
+size: 2
+solid: false
+category: defense
+
