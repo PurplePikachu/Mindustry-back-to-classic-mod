@@ -1,5 +1,5 @@
 type: ItemTurret
-health: 45
+health: 430
 size: 2
 spread: 12
 shots: 2
