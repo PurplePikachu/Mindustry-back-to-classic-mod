@@ -1,0 +1,23 @@
+type: GenericSmelter
+liquidCapacity: 41
+itemCapacity: 90
+size: 1
+updateEffect: none
+flameColor: 00000000
+craftEffect: none
+hasItems: false
+craftTime: 15
+consumes: {
+  items: {
+    water/40
+    items: [
+      iron/6
+    ]
+  }
+}
+requirements: [
+  iron/30
+  steel/30
+]
+category: crafting
+outputItem: titanium/1
