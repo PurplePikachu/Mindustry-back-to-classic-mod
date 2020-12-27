@@ -8,11 +8,11 @@ craftEffect: none
 hasItems: false
 craftTime: 15
 consumes: {
-  items: {
-    items: [
-      iron/6
-    ]
     liquid: water/40
+    items: {
+      items: [
+        iron/6
+    ]
   }
 }
 requirements: [
