@@ -9,10 +9,10 @@ hasItems: false
 craftTime: 15
 consumes: {
   items: {
-    water/40
     items: [
       iron/6
     ]
+    liquid: water/40
   }
 }
 requirements: [
