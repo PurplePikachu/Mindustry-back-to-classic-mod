@@ -1,0 +1,11 @@
+type: Conveyor
+health: 75
+solid: false
+floating: true
+insulated: true
+requirements: [
+  dirium/1
+]
+category: distribution
+speed: 0.27
+displayedSpeed: 4

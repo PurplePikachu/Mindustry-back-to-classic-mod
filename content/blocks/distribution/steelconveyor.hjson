@@ -1,0 +1,11 @@
+type: Conveyor
+health: 55
+solid: false
+floating: true
+insulated: true
+requirements: [
+  steel/1
+]
+category: distribution
+speed: 0.12
+displayedSpeed: 4
