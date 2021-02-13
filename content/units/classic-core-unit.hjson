@@ -21,7 +21,7 @@ weapons: [
   y: 4
   shots: 2
   ejectEffect: casing1
-  reload: 2
+  reload: 9
   spacing: 2
   shotDelay: 6
   bullet: {
